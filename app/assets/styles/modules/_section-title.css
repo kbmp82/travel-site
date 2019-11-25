@@ -8,6 +8,10 @@
     font-weight: 500; 
    }
 
+   &--blue {
+       color: $mainBlue;
+   }
+
    &__icon {
 
       
@@ -17,12 +21,28 @@
        margin-bottom: .6rem;
 
        @mixin atSmall {
+        
+        position: relative;
+        top: .3rem;
         margin-right: .5rem;
         margin-left: 0;
         margin-bottom: 0;
         display: inline-block;
+
+        &--testimonials {
+            top: .9rem; 
+        }
+        
     }
    }
+
+   /* &__icon--testimonials {
+    @mixin atSmall {
+        top: .9rem;
+      
+    }
+     
+} */
 
    @mixin atSmall {
     font-size: 3.75rem;
