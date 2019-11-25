@@ -1,0 +1,55 @@
+.headline {
+    color: $mainBlue;
+    font-weight: 300;
+    font-size: 1.9rem;
+
+    @mixin atMedium {
+        font-size: 2rem;   
+    }
+
+    &--center {
+        text-align: center;
+    }
+
+    &--orange {
+        color: $mainOrange;
+    }
+
+    &--small {
+        font-size: 1.375rem;
+
+        @mixin atMedium {
+            font-size: 1.3rem;   
+        }
+    }
+
+    &--narrow{
+        max-width: 350px;
+        margin-right: auto;
+        margin-left: auto;
+
+        @mixin atMedium {
+            max-width: 400px;   
+        }
+    }
+
+    &--light {
+        font-weight: 200;
+    }
+
+    &--b-margin-sm {
+        margin-bottom: .5em;
+    }
+
+    &--b-margin-lg {
+        margin-bottom: 1.6em;
+    }
+
+    @mixin atMedium {
+
+    &--no-t-margin {
+        margin-top: 0;
+    }
+
+    }
+}

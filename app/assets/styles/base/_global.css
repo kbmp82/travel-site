@@ -1,9 +1,21 @@
 body {
     font-family: 'roboto', sans-serif;
-    color: #333
+    color: #333;
+
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* apply to every element on the page */
+/* box-sizing tells the browser to honor margin and padding before calculating width of screen */
+/* this stops padding from causing elements to be pushed down when you want them side by side */
+* {
+    box-sizing: border-box;  
+}
+
+a {
+    color: $mainOrange;
 }
