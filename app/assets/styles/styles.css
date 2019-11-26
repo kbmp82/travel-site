@@ -2,6 +2,8 @@
 @import 'base/_variables';
 @import 'base/_global';
 @import 'base/_mixins';
+@import 'modules/_header';
+@import 'modules/_nav';
 @import 'modules/_large-hero';
 @import 'modules/_btn';
 @import 'modules/_wrapper';

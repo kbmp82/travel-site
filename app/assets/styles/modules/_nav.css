@@ -1,0 +1,54 @@
+.nav {
+  li {
+    list-style: none;
+    padding-right: 10px;
+    /* margin-top: 15px; */
+    display: inline-block;
+    @mixin atMedium {
+        float: left;
+        padding-right: 20px;
+    }
+  }
+
+  li:last-child {
+      padding-right: 0;
+
+      @mixin atMedium {
+        padding-right: 20px; 
+      }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    @mixin clearFix;
+  }
+
+  a {
+      color: white;
+      text-decoration: none;
+      font-weight: 300;
+      display: block;
+      padding: 5px 8px;
+      font-size: .8rem;
+      background-color: rgba($mainBlue, 1);
+      
+      @mixin atMedium {
+        padding: 15px 0;
+        font-size: 1rem;
+        background-color: transparent;
+      }
+  }
+
+  &--pull-right {
+     
+      @mixin atMedium {
+        float: right;
+      }
+   
+  }
+
+  &--t-margin {
+      margin-top: 8px;
+  }
+}
