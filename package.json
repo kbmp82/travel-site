@@ -20,6 +20,7 @@
   "homepage": "https://github.com/kbmp82/travel-site#readme",
   "dependencies": {
     "lodash": "^4.17.15",
+    "tailwindcss": "^1.1.4",
     "webpack-dev-server": "^3.9.0"
   },
   "devDependencies": {
