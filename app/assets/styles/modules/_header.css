@@ -9,8 +9,15 @@
     background-color: rgba($mainBlue, 0.55);
  }
 
+
+
  @mixin atMedium {
+    position: fixed; 
     background-color: rgba($mainBlue, .3);
+
+    &--dark {
+        background-color: #1B3046;   
+     }
  }
 
  &__logo {
@@ -19,11 +26,18 @@
    transform: translateX(-50%);
      background-color: $mainBlue;
      padding: 10px 15px;
+     transition: all .15s ease-out;
 
      @mixin atMedium {
         left: 100px;
         transform: translateX(0%);
         padding: 25px 25px 15px 25px;
+
+        &--shrink {
+            margin-top: -1.3em;
+            background-color: rgba($mainBlue, 0); 
+            transform: scale(.65);  
+         }
      }
  }
 

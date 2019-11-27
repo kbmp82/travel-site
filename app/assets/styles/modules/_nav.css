@@ -37,8 +37,14 @@
         padding: 15px 0;
         font-size: 1rem;
         background-color: transparent;
+
+        &.nav--is-current {
+            color: $mainOrange;
+          }
       }
   }
+
+
 
   &--pull-right {
      
