@@ -1,5 +1,6 @@
 //jshint esversion:6
 import '../styles/styles.css';
+import 'lazysizes';
 import MobileMenu from './modules/MobileMenu';
 import RevealOnScroll from './modules/RevealOnScroll';
 import StickyHeader from './modules/StickyHeader';
@@ -21,7 +22,7 @@ document.querySelectorAll('.open-modal').forEach(el => el.addEventListener('clic
     }else{
        modal.openModal();
     }
-}))
+}));
 
 
 if(module.hot){
