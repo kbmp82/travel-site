@@ -41,15 +41,13 @@ class StickyHeader {
         }
         this.previousScrollY = window.scrollY;
 
-        console.log(this.scrollDirection);
     }
 
     //check browser page section and highlight corresponding nav href
     checkSection(el) {
-        console.log(window.scrollY)
+
         if(window.scrollY + this.browserHeight > el.offsetTop && window.scrollY < (el.offsetTop + el.offsetHeight)) {
             let scrollPercent = el.getBoundingClientRect().y / this.browserHeight * 100
-            console.log(scrollPercent)
             if(scrollPercent < 33 && scrollPercent > -0.1 && this.scrollDirection === 'down' || scrollPercent < 33 && this.scrollDirection === 'up' ){
               let matchingLink = el.getAttribute('data-matching-link');
               document.querySelectorAll(`.nav a:not(${matchingLink})`).forEach(link => link.classList.remove('nav--is-current'));
