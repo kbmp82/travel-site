@@ -1,6 +1,7 @@
 exports.handler = function(event, context, callback) {
     const headers = {
         "Access-Control-Allow-Origin" : "*",
+        "Access-Control-Allow-Methods" : "POST, GET, OPTIONS, DELETE, PUT",
         "Access-Control-Allow-Headers" : "Content-Type"
       };
 

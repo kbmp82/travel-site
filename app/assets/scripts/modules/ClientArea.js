@@ -21,7 +21,7 @@ class ClientArea {
         password: this.field.value
        }).then(res => {
            this.form.remove();
-           this.contentArea.innerHTML = response.data;
+           this.contentArea.innerHTML = res.data;
        }).catch(() => {
            this.contentArea.innerHTML = `<p class="client-area__error">You do not have access to this content</p>`;
            this.field.value ='';
