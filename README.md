@@ -3,7 +3,10 @@
 Website may be viewed at:
 https://determined-jackson-73c20f.netlify.com/
 
-Example one page website built using Modern Javascript, HTML, and CSS. 
+Example one page website built using Modern Javascript, HTML, and CSS during a 15 hour web developemnt course I took on Udemy in order to help increase and "fine-tune" my knowledge of javascript and industry best practices.
+
+Udemy course:
+https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/
 
 This webiste showcases the use of the following: 
 
