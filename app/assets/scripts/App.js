@@ -4,7 +4,7 @@ import 'lazysizes';
 import MobileMenu from './modules/MobileMenu';
 import RevealOnScroll from './modules/RevealOnScroll';
 import StickyHeader from './modules/StickyHeader';
-import ClientArea from './modules/ClientArea';
+//import ClientArea from './modules/ClientArea';
 
 
 /*React related code goes here
