@@ -18,7 +18,7 @@ new MobileMenu();
 new RevealOnScroll(document.querySelectorAll('.feature-item'), 75);
 new RevealOnScroll(document.querySelectorAll('.testimonial'), 60);
 new StickyHeader();
-new ClientArea();
+//new ClientArea();
 let modal;
 
 document.querySelectorAll('.open-modal').forEach(el => el.addEventListener('click', e => {
