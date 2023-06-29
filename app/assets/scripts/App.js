@@ -7,13 +7,13 @@ import StickyHeader from './modules/StickyHeader';
 import ClientArea from './modules/ClientArea';
 
 
-//React related code goes here
+/*React related code goes here
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MyReactComponent from './modules/MyReactComponent';
 
 ReactDOM.render(<MyReactComponent />, document.querySelector('#react-example'));
-
+*/
 new MobileMenu();
 new RevealOnScroll(document.querySelectorAll('.feature-item'), 75);
 new RevealOnScroll(document.querySelectorAll('.testimonial'), 60);
